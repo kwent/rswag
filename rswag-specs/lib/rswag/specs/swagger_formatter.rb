@@ -64,7 +64,7 @@ module Rswag
                     end
                   end
 
-                  value[:parameters].reject! { |p| p[:in] == :body || p[:in] == :formData }
+                  #value[:parameters].reject! { |p| p[:in] == :body || p[:in] == :formData }
                 end
                 remove_invalid_operation_keys!(value)
               end
